@@ -9,5 +9,8 @@ public class QueueMain {
 
         System.out.println("Print The Value Of Front Element Is ");
         System.out.println(queue.peek());
+        while (!queue.isEmpty()) { // dequeue elements until the queue is empty
+            System.out.println(queue.dequeue());
         }
     }
+}
